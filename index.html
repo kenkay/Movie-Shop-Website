@@ -32,14 +32,90 @@
 
   <div class="main_page">
     <div class="container">
-      <div class="row">
-      
 
+      <div id="grid">
+        <div id="slideA">
+          <img class="slideAsec" src="assets/slides/A/thor.png" height="500px" width="362px">
+          <img class="slideAsec" src="assets/slides/A/MIB.png" height="500px" width="362px">
+          <img class="slideAsec" src="assets/slides/A/bp.jpg" height="500px" width="362px">
+        </div>
+        <script>
+          var myIndex = 0;
+          carouselA();
+
+          function carouselA() {
+            var i;
+            var x = document.getElementsByClassName("slideAsec");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+              myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carouselA, 2000); // Change image every 2 seconds
+          }
+        </script>
+
+        <div id="slideB">
+          <img class="slideBsec" src="assets/slides/B/aladin.png" height="500px" width="362px">
+          <img class="slideBsec" src="assets/slides/B/baby driver.png" height="500px" width="362px">
+          <img class="slideBsec" src="assets/slides/B/BLADE_RUNNER.jpg" height="500px" width="362px">
+        </div>
+        <script>
+          var myIndex = 0;
+          carouselB();
+
+          function carouselB() {
+            var i;
+            var x = document.getElementsByClassName("slideBsec");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+              myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carouselB, 1500); // Change image every 1.5 seconds
+          }
+        </script>
+        <div class="slideC">
+          <img class="slideCsec" src="assets/slides/C/HARRY_POTTER1.jpg" height="500px" width="362px">
+          <img class="slideCsec" src="assets/slides/C/legion.jpg" height="500px" width="362px">
+          <img class="slideCsec" src="assets/slides/C/THE_KING_WALKER.jpg" height="500px" width="362px">
+        </div>
+
+        <script>
+          var myIndex = 0;
+          carouselC();
+
+          function carouselC() {
+            var i;
+            var x = document.getElementsByClassName("slideCsec");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+              myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carouselC, 3000); // Change image every 3 seconds
+          }
+        </script>
       </div>
+
     </div>
 
   </div>
-
+  </div>
+  <div class="trailers">
+    <div class="showTrailer">
+      <iframe width="100%" height="600px" src="https://www.youtube.com/embed/6ZfuNTqbHE8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
 
 
 </html>
