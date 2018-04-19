@@ -42,7 +42,7 @@ li a:hover {
 .banner {
   height: 600px;
   background-image: url(../assets/legion_1280x600.jpg);
-  background-size: cover;
+  background-size: 100% 100%;
   padding-right: 0px;
   /*dont include width*/
 }
