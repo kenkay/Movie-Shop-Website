@@ -1,0 +1,81 @@
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 32px;
+}
+
+p {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 16px;
+  color: white;
+}
+
+ul {
+  background-color: #151517;
+  width: 100%;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  top: 0:
+}
+
+li {
+  float: left;
+  color: black;
+}
+
+li a {
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  color: white;
+  float: left;
+}
+
+li a:hover {
+  background-color: #b300b3;
+  color: black;
+  text-decoration: none;
+}
+
+.banner {
+  height: 600px;
+  background-image: url(../assets/legion_1280x600.jpg);
+  background-size: cover;
+  padding-right: 0px;
+  /*dont include width*/
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 270px;
+}
+
+.banner_btn {
+  text-align: center;
+}
+
+button {
+  border-radius: 50px;
+  padding: 10px 60px;
+  color: black;
+  cursor: pointer;
+  background-color: white;
+  border-color: #4d4d4d;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.signup_btn:hover {
+  background-color: #28A8CC;
+  color: white;
+  border-radius: 50px;
+}
+
+#img1 {
+  margin: 50px 0 0 100px;
+}
