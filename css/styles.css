@@ -98,9 +98,9 @@ li a:hover {
 .banner {
   height: 600px;
   background-image: url(../assets/legion_1280x600.jpg);
-  background-size: cover;
-  padding-right: 0px;
-  max-width: 100%;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
   /*dont include width*/
 }
 
