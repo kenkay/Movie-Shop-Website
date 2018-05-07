@@ -18,14 +18,14 @@
   <div class="nav-bar">
     <ul>
       <li> <img src="" height="" width=""> </li>
-      <li><a href=""> Menu </a> </li>
-      <li><a href=""> Contacts </a> </li>
-      <li><a href=""> Account </a> </li>
+      <li><a href=""> Movies </a> </li>
+      <li><a href=""> Series </a> </li>
+      <li><a href=""> About Us </a> </li>
       <li><a href=""> Log In </a> </li>
 
       <div class="search-container">
-        <form action="/action_page.php">
-          <input type="text" placeholder="search..." name="search">
+        <form action="search.php">
+          <input type="text" placeholder="Search Query" name="search">
           <button type="submit"><i class="fa fa-search"></i></button>
         </form>
       </div>
@@ -121,9 +121,9 @@
 
   </div>
   </div>
-  <!--div class="trailers">
+  <div class="trailers">
     <div class="showTrailer">
-      <iframe width="100%" height="600px" src="https://www.youtube.com/embed/6ZfuNTqbHE8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <iframe width="100%" height="600px" src="https://www.youtube.com/embed/UUkn-enk2RU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
   </div>
 

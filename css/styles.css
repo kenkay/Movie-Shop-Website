@@ -24,7 +24,7 @@ p {
 .nav-bar input[type=text] {
   padding: 2.5px;
   margin-top: 10px;
-  font-size: 17px;
+  font-size: 17px ;
   border: none;
   margin-bottom: 10px;
   opacity: 0.5;
@@ -99,7 +99,7 @@ li a:hover {
   height: 600px;
   background-image: url(../assets/legion_1280x600.jpg);
   background-repeat:no-repeat;
-  background-size:contain;
+  background-size:100% 100%;
   background-position:center;
   /*dont include width*/
 }
