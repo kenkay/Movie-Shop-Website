@@ -1,3 +1,6 @@
+<?php
+    include 'header.php'
+?>
 <html>
 
 <head>
@@ -24,9 +27,9 @@
       <li><a href=""> Log In </a> </li>
 
       <div class="search-container">
-        <form action="search.php">
-          <input type="text" placeholder="Search Query" name="search">
-          <button type="submit"><i class="fa fa-search"></i></button>
+        <form action="search.php" method="POST">
+          <input type="text" placeholder="Search Query" name="search" required>
+          <button type="submit" name="submit-search"><i class="fa fa-search"></i></button>
         </form>
       </div>
     </ul>
