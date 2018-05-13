@@ -1,7 +1,11 @@
-#Movie Shop Website
+# Project Title
 
-##known Bugs
-sign-up / log-in button still doesn't have a page linked
+Movie Website
+
+## known Bugs
+
+-   sign-up / log-in button still doesn't have a page linked
+
 
 ## Authors
 
