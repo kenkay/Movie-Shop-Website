@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 32px;
+}
+
+p {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 16px;
+  color: white;
+}
+
+.nav-bar {
+  overflow: hidden;
+}
+
+.search-container {
+  float: right;
+}
+
+.nav-bar input[type=text] {
+  padding: 2.5px;
+  margin-top: 10px;
+  font-size: 17px ;
+  border: none;
+  margin-bottom: 10px;
+  opacity: 0.5;
+  color: white;
+  background-color: black;
+}
+
+.nav-bar .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 10px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.nav-bar .search-container button:hover {
+  background: #28A8CC;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-bar .search-container {
+    float: none;
+  }
+  .nav-bar input[type=text], .nav-bar .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .nav-bar input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+ul {
+  background-color: #151517;
+  width: 100%;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  top: 0:
+}
+
+li {
+  float: left;
+  color: black;
+}
+
+li a {
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  color: white;
+  float: left;
+}
+
+li a:hover {
+  background-color: #b300b3;
+  color: black;
+  text-decoration: none;
+}
+
+.banner {
+  height: 600px;
+  background-image: url(../assets/legion_1280x600.jpg);
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  background-position:center;
+  /*dont include width*/
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 270px;
+}
+
+.banner_btn {
+  text-align: center;
+}
+
+.signup_btn {
+  border-radius: 50px;
+  padding: 10px 60px;
+  color: black;
+  cursor: pointer;
+  background-color: white;
+  border-color: #4d4d4d;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.signup_btn:hover {
+  background-color: #28A8CC;
+  color: white;
+  border-radius: 50px;
+}
+
+#img1 {
+  margin: 50px 0 0 100px;
+}
+
+#grid {
+  display: grid;
+  height: 100px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px;
+  grid-column-gap: 20px;
+  margin-top: 20px;
+}
+
+/*#grid > div {
+  border-style: solid;
+} comment out for later reference*/
+
+.slideAsec {
+  display: none;
+}
+
+.slideBsec {
+  display: none;
+}
+
+.slideCsec {
+  display: none;
+}
+
+.trailers {
+  height: 300px;
+}
+
+.main_page {
+  height: 600px;
+}
+
+.showTrailer {
+  height: 600px;
+}
